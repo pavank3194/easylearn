@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background: black;
+}
+.nav-header{
+    /* background: linear-gradient(to right, #4a4b4b, #080808); */
+    background: black;
+
+}
+a{
+    color: unset;
+    text-decoration: none;
+    
+}
+.learns-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    color: white;
+    
+}
+.learns-navbar-links{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+.learns-navbar-links-logo{
+    margin-right: 2rem;
+}
+.learns-navbar-links-content{
+    display: flex;
+    flex-direction: row;
+}
+.learns-navbar-links-content p , .learns-navbar-sign p{
+    font-family:Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+
+
+}
+.learns-navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+.learns-navbar-sign input{
+    font-family:Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 0rem 0rem;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 5px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    cursor: pointer;
+}

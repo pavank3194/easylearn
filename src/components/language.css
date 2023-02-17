@@ -1,0 +1,25 @@
+.language{
+    /* background: white; */
+    color: white;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.language-content{
+    padding: 10px;
+    
+    border-radius: 5px;
+
+}
+.language-img img{
+    height: 200px;
+    width: 280px;
+}
+
+.language-author{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7px 0;
+}

@@ -1,0 +1,28 @@
+
+*{
+    align-items: center;
+}
+.learns-header{
+    display: flex;
+    /* background: black; */
+}
+.learns-header-content{
+    flex: 1;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-right: 5rem;
+    justify-content: space-between;
+    padding: 2rem 6rem;
+}
+.gh1{
+    background: radial-gradient(circle at 30% -100%,#df993067 25%, #f059ca 85%, #b88faa 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    margin-right: 100px;
+}
+.learns-header-img img{
+    width: 20rem;
+}
