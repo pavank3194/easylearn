@@ -2,6 +2,7 @@ import React from "react";
 
 function AppNavbar(params) {
     return(
+        <div className="fixed-navbar">
         <div className='content-navbar'>
                 
                 <div className='content-navbar-links'>
@@ -14,6 +15,7 @@ function AppNavbar(params) {
                     <a href="/JavaScript">JavaScript</a>
                     <a href="/PHP">PHP</a>
                 </div>
+            </div>
             </div>
     )
 };

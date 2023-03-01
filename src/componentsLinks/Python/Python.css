@@ -1,0 +1,46 @@
+.content-language-navbar{
+    margin-top: 78px;
+    position: fixed;
+    transition: top 0.3s;
+    top: 0;
+    left: 5;
+    width: 97%;
+}
+.content-language-navbar.hidden{
+    top: -60px;
+}
+
+.content-language-navbar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+
+}
+.content-language-navbar ul li {
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.Python-language-Discription{
+    margin-top: 75px;
+    padding-left: 200px;
+    color: white;
+}
+.Python-language-Discription ul {
+    padding-left: 50px;
+    list-style-type: none;
+    line-height: 30px;
+    font-weight: bold;
+    word-spacing: 0px;
+    
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.PythonDataTypes hr{
+    color: black;
+    
+}
+.PythonDataTypes{
+    justify-content: center;
+}

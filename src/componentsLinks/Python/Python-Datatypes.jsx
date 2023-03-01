@@ -8,21 +8,23 @@ function PythonDatatypes(){
                     <p>
                         Python is a dynamically typed language, which means that the data type of a variable is determined at runtime. There are several built-in data types in Python, including:
                     </p><br />
+                    <h2>Numeric Data Types:</h2><br />
                     <ul>
-                        <h3>Numeric Data Types:</h3><br />
-                        <li> Integer (int): represents whole numbers, positive or negative, without decimals, with a theoretical limit of plus/minus 10^308.</li>
+                        <li> <b> Integer (int): </b>represents whole numbers, positive or negative, without decimals, with a theoretical limit of plus/minus 10^308.</li>
                         <li> Float (float): represents real numbers with decimal points, with a theoretical limit of plus/minus 10^308.</li>
                         <li> Complex (complex): represents a number in the form of a + bj, where a and b are real numbers, and j is the imaginary unit.</li>
                     </ul><br />
+                    <h3>Sequence Data Types:</h3><br />
                     <ul>
-                            <h3>Sequence Data Types:</h3><br />
+                            
                            <li>  String (str): represents a sequence of characters, enclosed in single or double quotes.</li>
                            <li> List: represents a collection of items, where each item can be of any data type, enclosed in square brackets [].</li>
                            <li>  Tuple: similar to a list, but immutable (cannot be changed once created), enclosed in parentheses ().</li>
                            <li> Range: represents a sequence of numbers, with a start, stop, and step value, created using the range() function.</li>
                     </ul><br />
+                    <h3>Mapping Data Types:</h3> <br />
                     <ul>
-                            <h3>Mapping Data Types:</h3> <br />
+                            
                             <li>Dictionary: represents a collection of key-value pairs, where each key is unique and associated with a value, enclosed in curly braces {}.</li> 
                     </ul>
                     <ul>
@@ -30,8 +32,9 @@ function PythonDatatypes(){
                            <li> Set: represents an unordered collection of unique items, enclosed in curly braces {}.</li>
                            <li> Frozen set: similar to a set, but immutable, enclosed in parentheses ().</li>
                     </ul>
+                    <h3>Boolean Data Type:</h3>
                     <ul>
-                            <h3>Boolean Data Type:</h3>
+                            
                            <li> Boolean (bool): represents a logical value of either True or False.</li>
 
                     </ul><br />
